@@ -9,7 +9,7 @@ BetterLocalizator
 
 1. Import the library to your project.
 
-2. Put this code in the Prefix.pch (OPTIONAL):
+2. Put this code in the `Prefix.pch` (OPTIONAL):
 
     ```
     #import "TTBetterLocalizator.h"
@@ -20,7 +20,7 @@ BetterLocalizator
     #define LS(s,a)               [BetterLocalizator localizedStringForKey:s alternative:a]
     ```
 
-3. Add this code in the main function (I think you want this early in your application's startup):
+3. Add this code in the main (`main.m`)function (I think you want this early in your application's startup):
 
     ```
     int main(int argc, char *argv[])
@@ -43,7 +43,7 @@ BetterLocalizator
     }
     ```
 
-4. Changes your NSLocalizedString(@"word") invocations to LS(@"word") or [BetterLocalizator localizedStringForKey:@"word" alternative:@"altWord"]
+4. Changes your `NSLocalizedString(@"word")` invocations to `LS(@"word")` or `[BetterLocalizator localizedStringForKey:@"word" alternative:@"altWord"]`.
 
 
 Reference & Credits
