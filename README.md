@@ -6,7 +6,11 @@ BetterLocalizator
 
 ### SCENARIO
 
+* Above (I usually use "special" strings, so if you have a different system language of the supported, you'll see this):
+
 ![image](./screenshots/before.png "Before")
+
+* Now (with this library):
 
 ![image](./screenshots/after.png "After")
 
