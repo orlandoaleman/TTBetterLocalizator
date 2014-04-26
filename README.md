@@ -44,3 +44,9 @@ int main(int argc, char *argv[])
 ```
 
 4. Changes your NSLocalizedString(@"word") invocations to LS(@"word") or [BetterLocalizator localizedStringForKey:@"word" alternative:@"altWord"]
+
+
+Reference & Credits
+-------------------
+* [StackOverFlow]:http://stackoverflow.com/questions/1669645/how-to-force-nslocalizedstring-to-use-a-specific-language
+
