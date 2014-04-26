@@ -4,6 +4,11 @@ BetterLocalizator
 [iOS] A helper library to force the strings localization to a specific language
 
 
+### SCENARIO
+
+![image](./screenshots/before.png "Before")
+
+![image](./screenshots/after.png "After")
 
 ### Easy to use
 
