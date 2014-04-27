@@ -1,7 +1,7 @@
 BetterLocalizator
 =================
 
-[iOS] A helper library to force the string localization to a specific language
+[iOS] An helper library to force the string localization to a specific language
 
 
 ### SCENARIO
