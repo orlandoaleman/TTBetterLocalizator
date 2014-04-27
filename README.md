@@ -29,7 +29,7 @@ BetterLocalizator
     #define LS(s,a)               [BetterLocalizator localizedStringForKey:s alternative:a]
     ```
 
-3. Add this code in the main function (`main.m`) (I think you want this early in your application's startup):
+3. Add BetterLocalizator initialization to the main function (`main.m`) (I think you want this early in your application's startup):
 
     ```
     int main(int argc, char *argv[])
