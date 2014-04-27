@@ -1,12 +1,12 @@
 BetterLocalizator
 =================
 
-[iOS] A helper library to force the strings localization to a specific language
+[iOS] A helper library to force the string localization to a specific language
 
 
 ### SCENARIO
 
-* Above (I usually use "special" strings, so if you have a different system language of the supported, you'll see this):
+* Before (I usually use "special" strings, so if you have a different system language of the supported, you'll see this):
 
 ![image](./screenshots/before.png "Before")
 
@@ -29,7 +29,7 @@ BetterLocalizator
     #define LS(s,a)               [BetterLocalizator localizedStringForKey:s alternative:a]
     ```
 
-3. Add this code in the main (`main.m`)function (I think you want this early in your application's startup):
+3. Add this code in the main function (`main.m`) (I think you want this early in your application's startup):
 
     ```
     int main(int argc, char *argv[])
