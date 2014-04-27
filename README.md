@@ -52,7 +52,7 @@ BetterLocalizator
     }
     ```
 
-4. Changes your `NSLocalizedString(@"word")` invocations to `LS(@"word")` or `[BetterLocalizator localizedStringForKey:@"word" alternative:@"altWord"]`.
+4. Change your `NSLocalizedString(@"word")` invocations to `LS(@"word")` or `[BetterLocalizator localizedStringForKey:@"word" alternative:@"altWord"]`.
 
 
 Reference & Credits
